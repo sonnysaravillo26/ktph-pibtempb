@@ -1,0 +1,168 @@
+/* #######################
+# Default 
+####################### */
+html {
+  background: url(img/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  overflow: hidden !important;
+
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+/* #################
+# CONTROL 
+################# */
+.Header-Controller {
+  height: 100%;
+  font-weight: 100%;
+  position: absolute;
+  z-index: 88;
+  right: 50px;
+}
+
+/* #############
+# app
+############# */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* to make it flexible height&width based on the screen */
+}
+
+.header-title {
+  background-color: #ca6f04;
+  padding: 5px 8px 5px 8px;
+  border-radius: 10px 10px;
+}
+
+.header-align-center {
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: white;
+}
+
+.header-align-left {
+  text-align: left;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: white;
+}
+.spacing-top-1 {
+  margin-top: 1%;
+}  
+
+.spacing-top-1-2 {
+  margin-top: 1.2%;
+}  
+
+.spacing-top-2 {
+  margin-top: 2%;
+} 
+
+.spacing-top-10 {
+  margin-top: 10%;
+}
+
+.spacing-top-20 {
+  margin-top: 20%;
+}
+
+.margin-left-5 {
+  margin-left: 5px;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.content-column-2 {
+  width: 100%;
+  display: inline-flex;
+  float: left;
+}
+
+.column-2 {
+  width: 50%; 
+}
+
+.margin-right-05 {
+  margin-right: 0.5%;
+}
+
+.margin-left-05 {
+  margin-left: 0.5%;
+}
+
+/* BOX CONTENT RIGHT */
+.sub-contentbox-one {
+  height: 6.8vw; /** Adjust height accordingly **/
+  max-width: 100%;
+  resize: both;
+  /* background-color: green; */
+}
+
+.sub-contentbox-two {
+  height: 11.3vw; /** Adjust height accordingly **/
+  max-width: 100%;
+  resize: both;
+  /* background-color: red; */
+}
+ 
+.sub-contentbox-two-img {
+  height: 11.3vw;
+  width: 100%;
+  display:block; 
+  /* background-color: red; */
+} 
+
+.box-content-image-2col {
+  height: 24.3vh;
+  width: 50%;
+  float: left;   
+}
+
+.box-content-image-1col {
+  height: 11.3vw;
+  width: 50%;
+  float: left;
+  display:block;
+  /* background-color: violet; */
+}
+
+
+/* ################
+# Controller Box 
+################ */    
+.toggle-button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #007BFF;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  left:0;
+  top:230px;
+}
+
+.hidden-content {
+  visibility: none;
+  margin-top: 10px;
+  position: absolute;
+  top:0;
+  left: 0;
+}

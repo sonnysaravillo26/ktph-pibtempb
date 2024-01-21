@@ -1,0 +1,43 @@
+/* ####################
+# header
+#################### */
+header {
+  max-height: 160px; 
+  height: auto;
+  min-height: 16%; /** header 16% **/
+}
+.header-icon-view img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+
+  align-items: center; /* Center vertically */
+}
+.header-this-icon {
+  padding: 10px 10px;
+  margin: 0;
+  justify-content: center;
+}
+.header-icons {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  justify-content: right;
+}
+
+.header-patient-name {
+  font-size: 3.5vw;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+
+.header-details {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  float: inline-start;
+  justify-content: left; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}

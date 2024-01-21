@@ -1,0 +1,92 @@
+/* ####################
+# footer
+#################### */
+footer {
+  max-height: 75px;
+  height: auto;
+  min-height: 10%;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+
+/* CONTENT FOOTER - Editable*/
+.footer-left-column {
+  box-sizing: border-box;
+  background: rgba(245, 227, 212, 0.5); /** color changed accordingly - so*/
+  height: 75vh;
+  width: 24.5%;
+  margin-right: 0.5%;
+}
+
+/* CONTENT FOOTER - Editable*/
+.footer-right-column {
+  box-sizing: border-box;
+  height: 75vh;
+  width: 74.5%;
+  margin-left: 0.5%;
+
+  /* background: rgba(94, 94, 94, 0.1);   */
+  background-color: #ca6f04;
+}
+
+.footer-left-content {
+  display: flex;
+  height: 8%;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.footer-right-content {
+  display: flex;
+  height: 8%;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+
+  text-align: left;
+  font-size: 1.5vw;
+  font-weight: 700;
+  color: white;
+}
+
+.footer-column-80 {
+  width: 80%;
+  text-align: -webkit-left;
+}
+
+.footer-column-20 {
+  width: 20%;
+  text-align: -webkit-right;
+}
+
+.circle {
+  /* width: 35px;
+    height: 35px; */
+  width: 1.8vw;
+  height: 1.8vw;
+  border: 2px solid rgb(49, 49, 49);
+  background-color: #00af49; /* Replace desired background color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color */
+  /* Text size */
+  /* font-size: 18px;  */
+  font-size: 1.3vw; /* Text size */
+}
+
+.footer-content-name .pin-span {
+  margin-left: 1%;
+}
+
+.pin-img img {
+  margin-right: 20px;
+}
