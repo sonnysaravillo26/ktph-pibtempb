@@ -1,6 +1,6 @@
 # ktph-pibtempb
- ktph pib responsive template B
- 
+ ktph pib responsive template B - portrait and must be proportion resolution.
+
 # Commands 
 1. Open your terminal and run the following command to install Create React App globally:`npm install -g create-react-app` 
 2. Create a new React app: `npx create-react-app my-react-app` Replace "my-react-app" with the desired name of your project.
