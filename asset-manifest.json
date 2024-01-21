@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ktph-pibtempb/static/css/main.ea6eb99c.css",
+    "main.js": "/ktph-pibtempb/static/js/main.03dcbc36.js",
+    "static/js/787.0798cea1.chunk.js": "/ktph-pibtempb/static/js/787.0798cea1.chunk.js",
+    "static/media/bg.png": "/ktph-pibtempb/static/media/bg.540d938efd61f2f90cbb.png",
+    "index.html": "/ktph-pibtempb/index.html",
+    "main.ea6eb99c.css.map": "/ktph-pibtempb/static/css/main.ea6eb99c.css.map",
+    "main.03dcbc36.js.map": "/ktph-pibtempb/static/js/main.03dcbc36.js.map",
+    "787.0798cea1.chunk.js.map": "/ktph-pibtempb/static/js/787.0798cea1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea6eb99c.css",
+    "static/js/main.03dcbc36.js"
+  ]
+}
